@@ -15,3 +15,12 @@ The following strict rules MUST be followed to mitigate security risks associate
 ## 3. External Downloads Restrictions
 - **NO UNAUTHORIZED DOWNLOADS:** Do NOT download or install external software, tools, or dependencies using package managers like Homebrew (`brew`), Windows Package Manager (`winget`), `apt`, `yum`, or similar tools.
 - Any required dependencies must be explicitly approved by the user before installation.
+
+## 4. General Preferences & Skill Usage
+- **Package Managers:** Prioritize `bun` > `pnpm` > `npm`, and `bunx` > `npx`.
+- **caveman:** Always use the `caveman` skill even when not being mentioned.
+- **caveman-commit:** Always use the `caveman-commit` skill when creating or updating a commit message, even when not being mentioned.
+- **caveman-review:** Always use the `caveman-review` skill when being asked to review code, even when not being mentioned.
+- **create-readme:** Always use the `create-readme` skill when being asked to write or update the `README.md`, even when not being mentioned.
+- **create-agentsmd:** Always use the `create-agentsmd` skill when being asked to write or update `AGENTS.md`, even when not being mentioned.
+- **vercel-react-best-practices:** Always use the `vercel-react-best-practices` skill when the framework is ReactJS or NextJS.
