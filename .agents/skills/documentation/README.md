@@ -1,0 +1,6 @@
+# Documentation
+
+Skills for writing project docs and agent-facing setup files.
+
+- `create-readme`: writes concise, structured project READMEs.
+- `create-agentsmd`: generates practical `AGENTS.md` files for project rules and workflow.
