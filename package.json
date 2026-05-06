@@ -1,0 +1,24 @@
+{
+  "name": "skills",
+  "version": "0.0.0",
+  "description": "A curated collection of AI agent skills and a CLI for installing them.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hector-Ha/skills.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "skills": "./bin/cli.mjs"
+  },
+  "files": [
+    "bin",
+    "scripts",
+    "README.md",
+    "LICENSE",
+    "skills-lock.json"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
