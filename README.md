@@ -45,6 +45,7 @@ The collection is organized into four logical pillars to streamline development,
 
 * **`grill-me`** — Relentless design-tree interview to build shared understanding before coding.
 * **`grill-with-docs`** — Deep domain-driven design interview aligned with `CONTEXT.md` and ADR specifications.
+* **`handoff`** — Compacts the current conversation into a handoff document for another agent to pick up.
 * **`to-prd`** — Formulates conversation logs and notes into functional Product Requirement Documents.
 * **`to-issues`** — Translates plans or PRDs directly into vertical-slice issue tickets.
 * **`setup-skills`** — Scaffolds per-repo configurations (issue tracker, triage labels, domain docs) for other engineering skills.

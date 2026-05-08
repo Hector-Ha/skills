@@ -41,6 +41,12 @@
       "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
       "computedHash": "e95d83038cb68774469932969b060438bc457973657269a479571321c93a9140"
     },
+    "handoff": {
+      "source": "Hector-Ha/skills",
+      "sourceType": "github",
+      "skillPath": "skills/project-management/handoff/SKILL.md",
+      "computedHash": "441a7312f81652acd8c179dde3d06481fcf9b630c390c5f28d042c621263ea38"
+    },
     "gsap": {
       "source": "heygen-com/hyperframes",
       "sourceType": "github",

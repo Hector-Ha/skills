@@ -133,7 +133,7 @@ function discoverLocalSource() {
   return {
     sourceId: "local-repo",
     sourceType: "local",
-    sourceRoot,
+    sourceRoot: localSourceRoot,
     lock: loadLocalSourceLock(),
     cleanup: null,
   };
