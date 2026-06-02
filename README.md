@@ -19,20 +19,20 @@ bunx skills add https://github.com/Hector-Ha/skills
 
 The collection currently includes 20 skills, organized into four logical pillars to streamline development, documentation, communication, and project planning.
 
-### 💬 Communication
+### Communication
 *Focus: Tone control, extreme compression, and high-signal feedback.*
 
 * **`caveman`** — Ultra-compressed, high-signal communication mode. Reduces token consumption by up to 75% by stripping filler words while preserving full technical accuracy.
 * **`caveman-commit`** — Generates terse, conventional-format commit messages with clean context.
 * **`caveman-review`** — Compact, action-focused pull request comments highlighting file, line, issue, and fix directly.
 
-### 📝 Documentation
+### Documentation
 *Focus: Standards for project documentation, onboarding, and agent-specific guidelines.*
 
 * **`create-readme`** — Generates professional, appealing, and readable project `README.md` files.
 * **`create-agentsmd`** — Automatically structures practical `AGENTS.md` rules for agent behavior in a workspace.
 
-### 🛠️ Engineering
+### Engineering
 *Focus: Quality assurance, clean architecture, security compliance, and testing.*
 
 * **`diagnose`** — Disciplined reproduce-minimize-hypothesize-instrument-fix loop for hard bugs and performance regressions.
@@ -43,7 +43,7 @@ The collection currently includes 20 skills, organized into four logical pillars
 * **`thermo-nuclear-code-quality-review`** — Runs an extremely strict maintainability review for abstraction quality, giant files, and spaghetti-condition growth.
 * **`vercel-react-best-practices`** — Ensures optimal performance patterns for React and Next.js projects.
 
-### 📋 Project Management
+### Project Management
 *Focus: Interactive brainstorming, plan stress-testing, and direct execution mapping.*
 
 * **`grill-me`** — Relentless design-tree interview to build shared understanding before coding.
