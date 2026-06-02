@@ -4,104 +4,122 @@
     "caveman": {
       "source": "juliusbrussee/caveman",
       "sourceType": "github",
-      "computedHash": "ac5fb2168c653fa5d660b5f510a4688d210717c7e10eb8fd91ef0d9b59f4e96e"
+      "skillPath": ".agents/skills/communication/caveman/SKILL.md",
+      "computedHash": "3f7b2c49e70944609d83f96b0ed20d37b62f455f59d6fb5437b0e3ac9ba9948e"
     },
     "caveman-commit": {
       "source": "juliusbrussee/caveman",
       "sourceType": "github",
-      "computedHash": "89fd592e14079fc99a3ccd4dfca5d609bac6a0252e4ec4e3939f1497e53c4cbe"
+      "skillPath": ".agents/skills/communication/caveman-commit/SKILL.md",
+      "computedHash": "18590fdbc1e21336eba9eaf3d434fefb6a65a4e8b580cedd639aec7907f0437a"
     },
     "caveman-review": {
       "source": "juliusbrussee/caveman",
       "sourceType": "github",
-      "skillPath": "skills/caveman-review/SKILL.md",
-      "computedHash": "368a26f2b079ffe0d584f48006524f65cf997cb9369411aa8c6ead216dee22eb"
+      "skillPath": ".agents/skills/communication/caveman-review/SKILL.md",
+      "computedHash": "0caaebbd37ad76e89b4b3a54865180d583c04386e08443d72b4b3f4ce09ab938"
     },
     "create-agentsmd": {
       "source": "github/awesome-copilot",
       "sourceType": "github",
-      "skillPath": "skills/create-agentsmd/SKILL.md",
-      "computedHash": "bfbdbb76b17cca970d1d624e36ce72b6847860d740581c8865da796c1fef8552"
+      "skillPath": ".agents/skills/documentation/create-agentsmd/SKILL.md",
+      "computedHash": "8580031c8da0ffa1f4ce47241dacfb9928b83db7df0571c1896651715fa4ffc4"
     },
     "create-readme": {
       "source": "github/awesome-copilot",
       "sourceType": "github",
-      "skillPath": "skills/create-readme/SKILL.md",
-      "computedHash": "d0ece1b2164ce1376e4ab6e98d6ac079df3a2a94f5f02224362b6a1ce2516ae9"
+      "skillPath": ".agents/skills/documentation/create-readme/SKILL.md",
+      "computedHash": "38e1b53b6eceebd50505c8b1591e451fecd05133699ba6bd38c9e76e53a8619a"
+    },
+    "diagnose": {
+      "source": "local-baseline",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/engineering/diagnose/SKILL.md",
+      "computedHash": "b19b323a3f957839d4beccebba32a2870fd317a92347ade58f419742cbbf1489"
     },
     "grill-me": {
       "source": "Hector-Ha/skills",
       "sourceType": "github",
-      "skillPath": "skills/productivity/grill-me/SKILL.md",
-      "computedHash": "daf64ca15f4fa081a6747766db538e2dbd1131725ed4fcdd3d538dc62c7035ba"
+      "skillPath": ".agents/skills/project-management/grill-me/SKILL.md",
+      "computedHash": "e479f007e8f2d8b74ef44cd3479f6bdec4f33d41942caa57dccdcabd29af6baa"
     },
     "grill-with-docs": {
       "source": "Hector-Ha/skills",
       "sourceType": "github",
-      "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
-      "computedHash": "e95d83038cb68774469932969b060438bc457973657269a479571321c93a9140"
+      "skillPath": ".agents/skills/project-management/grill-with-docs/SKILL.md",
+      "computedHash": "bd3bad0294f5e644a5a0c8ef901a3aee8446c009925c541471c4234cc923979e"
     },
     "handoff": {
       "source": "Hector-Ha/skills",
       "sourceType": "github",
-      "skillPath": "skills/project-management/handoff/SKILL.md",
-      "computedHash": "441a7312f81652acd8c179dde3d06481fcf9b630c390c5f28d042c621263ea38"
-    },
-    "gsap": {
-      "source": "heygen-com/hyperframes",
-      "sourceType": "github",
-      "computedHash": "bf85f05f3c0146c18d6f6ff23e6a4cd4a7853462a6d637ea389b610f584d55f8"
+      "skillPath": ".agents/skills/project-management/handoff/SKILL.md",
+      "computedHash": "d865a6a049fde13e8af889bcf82cf3ff9dcba2e9127d4bbc5dd3437d448f7c65"
     },
     "improve-codebase-architecture": {
       "source": "Hector-Ha/skills",
       "sourceType": "github",
-      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
-      "computedHash": "2da1d23b8f53cfe67f2e0b68924ab9f4ec400bb6480de097007eeaeb517d1722"
+      "skillPath": ".agents/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "computedHash": "d4ad9d0b78e8fd153913574091355ac64559aa5f52f5bb53060f214a5641b02e"
+    },
+    "prototype": {
+      "source": "local-baseline",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/engineering/prototype/SKILL.md",
+      "computedHash": "6cf629598b3ba44618b783563d7321d7fecf6d74619bf027b8131e7c344c13ce"
     },
     "security-best-practices": {
       "source": "openai/skills",
       "sourceType": "github",
-      "computedHash": "0c42fff660b6f7e85add36437edc36976466bb254b7cd9eb38ec67b2ad64a9bf"
+      "skillPath": ".agents/skills/engineering/security-best-practices/SKILL.md",
+      "computedHash": "09012c3e3d3885ac742cfc7966a03934e419a76515b961918caec96b65d05104"
     },
-    "setup-matt-pocock-skills": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "skillPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
-      "computedHash": "f686b246e95afeaeeb3ff21b0f9f2c1ab29b02958468170cc9802fb477508488"
+    "setup-skills": {
+      "source": "local-baseline",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/project-management/setup-skills/SKILL.md",
+      "computedHash": "e68f5d98d603ebfa09d682d04d76b220b4144599e6c56a9179438d29032609a0"
     },
     "tdd": {
       "source": "Hector-Ha/skills",
       "sourceType": "github",
-      "skillPath": "skills/engineering/tdd/SKILL.md",
-      "computedHash": "78b31b2120c5fe7aced1cebfd4c7c94acb0037fd4f89c83c67584414aa4173bd"
+      "skillPath": ".agents/skills/engineering/tdd/SKILL.md",
+      "computedHash": "4c263b7d5a266e17a09f0224f76c478a8b2db97aa731b9f41ee25b3fa0dcab60"
+    },
+    "thermo-nuclear-code-quality-review": {
+      "source": "local-baseline",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/engineering/thermo-nuclear-code-quality-review/SKILL.md",
+      "computedHash": "cc086b9663f7cfbc5b160023877a67113f74610fc74491b17cd40136310d564d"
     },
     "to-issues": {
       "source": "Hector-Ha/skills",
       "sourceType": "github",
-      "skillPath": "skills/engineering/to-issues/SKILL.md",
-      "computedHash": "41915d1686991b0d3796eb0b52f3aa8e9021abc5f268d14e6dc62e95dbf8e044"
+      "skillPath": ".agents/skills/project-management/to-issues/SKILL.md",
+      "computedHash": "3509ea5692c6a3da3566eea480ab6db3edf9afa46a85e0f03f1947916ce40817"
     },
     "to-prd": {
       "source": "Hector-Ha/skills",
       "sourceType": "github",
-      "skillPath": "skills/engineering/to-prd/SKILL.md",
-      "computedHash": "102a1d5f8eedffcba4bbedaae5cf456de6bfc9fe9ac1b1069c74701439ef1c58"
+      "skillPath": ".agents/skills/project-management/to-prd/SKILL.md",
+      "computedHash": "69fe8225509bdabc48cfbb07ace0adc9c8da7b93030f74e5474341cd59adc8c5"
     },
-    "ui-ux-pro-max": {
-      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
-      "sourceType": "github",
-      "computedHash": "6337038fe1fe6bbe1b9f252ab678ee575859190bab6f0f246f4061824eb40875"
+    "triage": {
+      "source": "local-baseline",
+      "sourceType": "local",
+      "skillPath": ".agents/skills/project-management/triage/SKILL.md",
+      "computedHash": "c845715d3f0f6924d5d9beefc136b9a0c6c507ec37ea708d67b752ac48b99fda"
     },
     "vercel-react-best-practices": {
       "source": "vercel-labs/agent-skills",
       "sourceType": "github",
-      "computedHash": "ca7b0c0c6e5f2750043f7f0cd72d16ac4e2abc48f9b5500d047a4b77a2506212"
+      "skillPath": ".agents/skills/engineering/vercel-react-best-practices/SKILL.md",
+      "computedHash": "10db2ae3bfab75754462b7709432c24b9659be8b8235bff31431a7d74cf8ddde"
     },
     "write-a-skill": {
       "source": "Hector-Ha/skills",
       "sourceType": "github",
-      "skillPath": "skills/productivity/write-a-skill/SKILL.md",
-      "computedHash": "3b58a16bde08f84ed490cd449ecdc40289216d660e070c485f53bc2d1ed2b843"
+      "skillPath": ".agents/skills/project-management/write-a-skill/SKILL.md",
+      "computedHash": "4d61e28c8eda46a3a38b5ab95e18f751524718e7c79c54fec15f7a0e19574aa6"
     }
   }
 }

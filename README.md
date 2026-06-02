@@ -1,6 +1,6 @@
 # The Skill Collection
 
-A curated repository of high-signal, specialized AI agent skills designed to supercharge development workflows, grounded in context and optimized for token efficiency. Includes a local CLI for easy integration.
+A curated repository of high-signal, specialized AI agent skills designed to supercharge development workflows, grounded in context and optimized for token efficiency. Includes a local CLI for easy integration and keeps `C:\Users\Admin\.agents\skills` as the baseline source of truth.
 
 ## Installation
 
@@ -17,7 +17,7 @@ bunx skills add https://github.com/Hector-Ha/skills
 
 ## Skill Categories
 
-The collection is organized into four logical pillars to streamline development, documentation, communication, and project planning.
+The collection currently includes 20 skills, organized into four logical pillars to streamline development, documentation, communication, and project planning.
 
 ### 💬 Communication
 *Focus: Tone control, extreme compression, and high-signal feedback.*
@@ -35,9 +35,12 @@ The collection is organized into four logical pillars to streamline development,
 ### 🛠️ Engineering
 *Focus: Quality assurance, clean architecture, security compliance, and testing.*
 
+* **`diagnose`** — Disciplined reproduce-minimize-hypothesize-instrument-fix loop for hard bugs and performance regressions.
 * **`improve-codebase-architecture`** — Analyzes domain mapping and recommends code modularity or architecture improvements.
+* **`prototype`** — Builds throwaway terminal or UI prototypes to sanity-check state, flows, and design options.
 * **`security-best-practices`** — Runs language-specific security compliance checks and fixes.
 * **`tdd`** — Guides red-green-refactor testing workflows seamlessly.
+* **`thermo-nuclear-code-quality-review`** — Runs an extremely strict maintainability review for abstraction quality, giant files, and spaghetti-condition growth.
 * **`vercel-react-best-practices`** — Ensures optimal performance patterns for React and Next.js projects.
 
 ### 📋 Project Management
@@ -49,6 +52,7 @@ The collection is organized into four logical pillars to streamline development,
 * **`to-prd`** — Formulates conversation logs and notes into functional Product Requirement Documents.
 * **`to-issues`** — Translates plans or PRDs directly into vertical-slice issue tickets.
 * **`setup-skills`** — Scaffolds per-repo configurations (issue tracker, triage labels, domain docs) for other engineering skills.
+* **`triage`** — Runs issue triage through the configured state machine and routes work to agent-ready or human-ready states.
 * **`write-a-skill`** — Standardized template tool for creating brand-new agent skills.
 
 > [!NOTE]
