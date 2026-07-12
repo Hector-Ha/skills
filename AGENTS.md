@@ -19,6 +19,7 @@ When asked to update this repository, the main priority is to compare against th
   - `.agents/skills/<category>/<skill>`
   - `.claude/skills/<category>/<skill>`
 - Preserve the repo's category layout while making each skill folder match its baseline source folder.
+- Exclude generated `__pycache__` directories and `*.pyc` files from copies, parity checks, and lock hashes.
 - Update `README.md`, category README files, and `skills-lock.json` whenever the baseline skill list changes.
 - Keep README headings and category labels plain text. Do not use emoji or decorative icons in README files.
 - When adding or removing a skill, update the corresponding category README under `.agents/skills/<category>/README.md`.
@@ -26,10 +27,10 @@ When asked to update this repository, the main priority is to compare against th
 
 ## Category Mapping
 
-- `communication`: `caveman`, `caveman-commit`, `caveman-review`
-- `documentation`: `create-agentsmd`, `create-readme`
-- `engineering`: `diagnose`, `improve-codebase-architecture`, `prototype`, `security-best-practices`, `tdd`, `thermo-nuclear-code-quality-review`, `vercel-react-best-practices`
-- `project-management`: `grill-me`, `grill-with-docs`, `handoff`, `setup-skills`, `to-issues`, `to-prd`, `triage`, `write-a-skill`
+- `communication`: `caveman`
+- `documentation`: `create-agentsmd`, `create-cli`, `create-readme`
+- `engineering`: `autoreview`, `code-review`, `diagnosing-bugs`, `domain-modeling`, `github-deep-review`, `implement`, `improve-codebase-architecture`, `oracle`, `prototype`, `skill-cleaner`, `tdd`, `thermo-nuclear-code-quality-review`, `vercel-react-best-practices`
+- `project-management`: `github-project-triage`, `grill-me`, `grill-with-docs`, `handoff`, `repo-issue-orchestrator`, `setup-skills`, `to-spec`, `to-tickets`, `triage`
 
 ## Tooling
 
@@ -45,8 +46,6 @@ When asked to update this repository, the main priority is to compare against th
 ## Skill Usage
 
 - Always use `caveman` for responses, except when writing `README.md`, `AGENTS.md`, or commit messages.
-- Always use `caveman-commit` for commit messages.
-- Always use `caveman-review` for code review tasks.
 - Always use `create-readme` when writing or updating README files.
 - Always use `create-agentsmd` when writing or updating AGENTS.md.
 - Always use `vercel-react-best-practices` when working with React or Next.js.
