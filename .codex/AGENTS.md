@@ -2,11 +2,15 @@
 
 ## Global Rule Synchronization
 
+Decision date: 2026-07-27
+Status: active
+Review trigger: Review when the global rule storage or backup locations change.
+
 - Keep these files identical:
   - `C:\Users\Admin\.codex\AGENTS.md`
-  - `C:\Users\Admin\Desktop\Projects\Personal_Projects\Career_Tailorer\.agents\AGENTS.md`
-- Whenever user requests a global-rule change, update both files in same task.
-- Never update only one copy. After editing, verify both files have identical hashes.
+  - `C:\Users\Admin\Desktop\Projects\Personal_Projects\The_Skill_Collection\.codex\AGENTS.md`
+- Whenever user requests a global-rule change, update all listed files in same task.
+- Never update only one copy. After editing, verify all listed files have identical hashes.
 
 ## Tool Priority
 
