@@ -1,5 +1,9 @@
 # Issue tracker: Local Markdown
 
+Decision date: `<YYYY-MM-DD>`
+Status: active
+Review trigger: Review when the repository adopts an external issue tracker or changes its local issue layout.
+
 Issues and PRDs for this repo live as markdown files in `.scratch/`.
 
 ## Conventions

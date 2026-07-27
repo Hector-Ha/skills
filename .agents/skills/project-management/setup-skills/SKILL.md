@@ -14,6 +14,8 @@ Scaffold the per-repo configuration that the engineering skills assume:
 
 This is a prompt-driven skill, not a deterministic script. Explore, present what you found, confirm with the user, then write.
 
+Use `record-dated-decisions` for the issue-tracker, triage-vocabulary, and domain-layout choices recorded by this skill. Preserve each original decision date when setup is revised; add a review date and status instead of making an old choice appear newly made.
+
 ## Process
 
 ### 1. Explore
@@ -115,6 +117,8 @@ Then write the three docs files using the seed templates in this skill folder as
 - [domain.md](./domain.md) — domain doc consumer rules + layout
 
 For "other" issue trackers, write `docs/agents/issue-tracker.md` from scratch using the user's description.
+
+Record every durable choice in the generated `docs/agents/*.md` files with `Decision date: YYYY-MM-DD`, or a `Decision date` column when several choices share a table. A file-level review date is not a substitute.
 
 ### 5. Done
 

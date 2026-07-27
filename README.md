@@ -17,7 +17,7 @@ bunx skills add https://github.com/Hector-Ha/skills
 
 ## Skill Categories
 
-The collection currently includes 26 skills, organized into four categories for development, documentation, communication, and project planning.
+The collection currently includes 32 skills, organized into four categories for development, documentation, communication, and project planning.
 
 ### Communication
 *Focus: Tone control, extreme compression, and high-signal feedback.*
@@ -39,14 +39,20 @@ The collection currently includes 26 skills, organized into four categories for 
 * **`diagnosing-bugs`** — Applies a disciplined diagnosis loop to hard bugs and performance regressions.
 * **`domain-modeling`** — Sharpens domain language, context, and architecture decisions.
 * **`github-deep-review`** — Performs evidence-first review of GitHub bugs and pull requests.
+* **`gsap-core`** — Covers GSAP tweens, easing, defaults, responsive animation, and reduced motion.
+* **`gsap-frameworks`** — Integrates GSAP with Vue, Svelte, and other non-React frameworks.
+* **`gsap-performance`** — Guides smooth, efficient GSAP animation.
+* **`gsap-plugins`** — Covers registration and use of GSAP's plugin ecosystem.
+* **`gsap-react`** — Integrates GSAP safely with React and Next.js lifecycles.
+* **`gsap-scrolltrigger`** — Builds scroll-linked animation, pinning, and scrub effects.
+* **`gsap-timeline`** — Choreographs animation sequences with GSAP timelines.
+* **`gsap-utils`** — Uses GSAP utilities for interpolation, mapping, snapping, and collection handling.
 * **`implement`** — Implements scoped work from specifications or tickets.
-* **`improve-codebase-architecture`** — Analyzes domain mapping and recommends code modularity or architecture improvements.
 * **`oracle`** — Bundles prompts and repository files for second-model review.
-* **`prototype`** — Builds throwaway terminal or UI prototypes to sanity-check state, flows, and design options.
+* **`shadcn`** — Adds, composes, styles, and troubleshoots shadcn components and registries.
 * **`skill-cleaner`** — Audits skill prompt budget, usage, and duplication.
 * **`tdd`** — Guides red-green-refactor testing workflows seamlessly.
 * **`thermo-nuclear-code-quality-review`** — Runs an extremely strict maintainability review for abstraction quality, giant files, and spaghetti-condition growth.
-* **`vercel-react-best-practices`** — Ensures optimal performance patterns for React and Next.js projects.
 
 ### Project Management
 *Focus: Interactive brainstorming, plan stress-testing, and direct execution mapping.*
@@ -63,3 +69,14 @@ The collection currently includes 26 skills, organized into four categories for 
 
 > [!NOTE]
 > The **`setup-skills`** workflow originally originated from **`setup-matt-pocock-skills`**, custom-tailored to configure per-repository agent context variables seamlessly.
+
+## Global Codex Snapshot
+
+Decision date: 2026-07-27
+Status: active
+Review trigger: Refresh when the global Codex rules or the Windows MCP registration changes.
+
+The repository records a portable snapshot of the user's global Codex setup:
+
+- [`.codex/AGENTS.md`](.codex/AGENTS.md) is an exact copy of `C:\Users\Admin\.codex\AGENTS.md`.
+- [`.codex/config.toml`](.codex/config.toml) records only the `windows-mcp` registration. Runtime-generated and unrelated MCP registrations are intentionally excluded.

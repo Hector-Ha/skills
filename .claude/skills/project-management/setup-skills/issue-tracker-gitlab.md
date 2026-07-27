@@ -1,5 +1,9 @@
 # Issue tracker: GitLab
 
+Decision date: `<YYYY-MM-DD>`
+Status: active
+Review trigger: Review when the repository changes issue trackers or GitLab access changes.
+
 Issues and PRDs for this repo live as GitLab issues. Use the [`glab`](https://gitlab.com/gitlab-org/cli) CLI for all operations.
 
 ## Conventions

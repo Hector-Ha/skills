@@ -1,0 +1,4 @@
+[mcp_servers.windows-mcp]
+args = ["serve"]
+command = 'C:\Users\Admin\.local\bin\windows-mcp.exe'
+startup_timeout_sec = 120

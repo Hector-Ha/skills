@@ -2,6 +2,10 @@
 
 How the engineering skills should consume this repo's domain documentation when exploring the codebase.
 
+Decision date: `<YYYY-MM-DD>`
+Status: active
+Review trigger: Review when the repository changes between single-context and multi-context domain documentation.
+
 ## Before exploring, read these
 
 - **`CONTEXT.md`** at the repo root, or
@@ -49,3 +53,5 @@ If the concept you need isn't in the glossary yet, that's a signal — either yo
 If your output contradicts an existing ADR, surface it explicitly rather than silently overriding:
 
 > _Contradicts ADR-0007 (event-sourced orders) — but worth reopening because…_
+
+Every new ADR or durable domain decision must record its original `Decision date: YYYY-MM-DD`. Preserve that date during later review; add `Last reviewed`, status, and supersession information as needed.

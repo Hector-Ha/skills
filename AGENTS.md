@@ -2,6 +2,10 @@
 
 ## Project Overview
 
+Decision date: 2026-06-02
+Status: active
+Review trigger: Review if the canonical global skill location changes.
+
 This repository is a curated collection of AI agent skills plus a small CLI for installing them into other workspaces.
 
 The baseline source of truth is:
@@ -13,6 +17,10 @@ C:\Users\Admin\.agents\skills
 When asked to update this repository, the main priority is to compare against that baseline and sync repo skill copies and docs accordingly.
 
 ## Sync Workflow
+
+Decision date: 2026-06-02
+Status: active
+Review trigger: Review when the canonical skill layout or generated-file exclusions change.
 
 - Treat `C:\Users\Admin\.agents\skills` as canonical.
 - Duplicate baseline skill folders into both repo skill trees:
@@ -27,12 +35,21 @@ When asked to update this repository, the main priority is to compare against th
 
 ## Category Mapping
 
+Decision date: 2026-06-02
+Status: active
+Last reviewed: 2026-07-27
+Review trigger: Review whenever the canonical baseline adds or removes a skill.
+
 - `communication`: `caveman`
 - `documentation`: `create-agentsmd`, `create-cli`, `create-readme`
-- `engineering`: `autoreview`, `code-review`, `diagnosing-bugs`, `domain-modeling`, `github-deep-review`, `implement`, `improve-codebase-architecture`, `oracle`, `prototype`, `skill-cleaner`, `tdd`, `thermo-nuclear-code-quality-review`, `vercel-react-best-practices`
+- `engineering`: `autoreview`, `code-review`, `diagnosing-bugs`, `domain-modeling`, `github-deep-review`, `gsap-core`, `gsap-frameworks`, `gsap-performance`, `gsap-plugins`, `gsap-react`, `gsap-scrolltrigger`, `gsap-timeline`, `gsap-utils`, `implement`, `oracle`, `shadcn`, `skill-cleaner`, `tdd`, `thermo-nuclear-code-quality-review`
 - `project-management`: `github-project-triage`, `grill-me`, `grill-with-docs`, `handoff`, `repo-issue-orchestrator`, `setup-skills`, `to-spec`, `to-tickets`, `triage`
 
 ## Tooling
+
+Decision date: 2026-06-02
+Status: active
+Review trigger: Review when repository package-management or CLI ownership changes.
 
 - Prefer `bun` over `pnpm` over `npm`.
 - Prefer `bunx` over `npx`.
@@ -45,12 +62,20 @@ When asked to update this repository, the main priority is to compare against th
 
 ## Skill Usage
 
+Decision date: 2026-06-02
+Status: active
+Last reviewed: 2026-07-27
+Review trigger: Review whenever required documentation or framework skills change.
+
 - Always use `caveman` for responses, except when writing `README.md`, `AGENTS.md`, or commit messages.
 - Always use `create-readme` when writing or updating README files.
 - Always use `create-agentsmd` when writing or updating AGENTS.md.
-- Always use `vercel-react-best-practices` when working with React or Next.js.
 
 ## Commit And Push
+
+Decision date: 2026-06-02
+Status: active
+Review trigger: Review if the repository branch or release workflow changes.
 
 - Before committing, verify `git status --short --branch`.
 - Commit only relevant sync/doc changes.
